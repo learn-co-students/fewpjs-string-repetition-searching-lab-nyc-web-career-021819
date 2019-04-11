@@ -13,17 +13,17 @@ Working with `String` values is one of the most popular functions
 in JavaScript. Strings are objects in the JavaScript language, and
 working with their values is one of the most common tasks a JavaScript
 developer performs. We have various functions that provide ways to
-access or manipulate the contents of a string such as with repitition
+access or manipulate the contents of a string such as with repetition
 and searching.
 
-## Demonstrate String Repitition in JavaScript
+## Demonstrate String Repetition in JavaScript
 
 Ever needed to repeat a string or character multiple times? If not,
 think of a scenario such as a song with lyrics that is repeated over
 and over again. There have been a number of complex ways to do such a
 simple operation with loops, but now `repeat()` is available in JavaScript!
 
-### Manual String Repitition
+### Manual String Repetition
 
 Even though we can now leverage the `repeat()` method that has been added
 to the ECMAScript 2015 specification, it may not be available in all
@@ -35,7 +35,7 @@ and conditionals looks like this:
 
 ```js
 function repeat(str, num) {
-  return (new Array(num+1)).join(str); 
+  return (new Array(num+1)).join(str);
 }
 
 repeat("foo",3)
@@ -88,12 +88,12 @@ na, na na na na, hey Jude." 16 times.
 
 ## Declare a Function that Utilizes the `search()` Method
 
-We have an online forum and don't want people to be able to create usernames 
+We have an online forum and don't want people to be able to create usernames
 that include swear words or other offensive language. Let's use the `search()`
 method to find inappropriate words in usernames and reject them if any are found.
 
 When creating a regular expression, it must be surrounded with slashes:
-`/regular expression/`. With that knowledge a search string with the word 
+`/regular expression/`. With that knowledge a search string with the word
 "pinapplepizza" is inside it looks like this:
 
 ```js
